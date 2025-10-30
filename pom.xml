@@ -217,12 +217,12 @@
         <module>code/business/product-service/product-interface</module>
         <module>code/business/product-service/product-boot</module>
 
-        <!-- 类别服务模块 -->
-        <module>code/business/category-service/category-application</module>
-        <module>code/business/category-service/category-domain</module>
-        <module>code/business/category-service/category-infrastructure</module>
-        <module>code/business/category-service/category-interface</module>
-        <module>code/business/category-service/category-boot</module>
+        <!-- 内容服务模块 -->
+        <module>code/business/content-service/content-application</module>
+        <module>code/business/content-service/content-domain</module>
+        <module>code/business/content-service/content-infrastructure</module>
+        <module>code/business/content-service/content-interface</module>
+        <module>code/business/content-service/content-boot</module>
 
         <!-- 订单服务模块 -->
         <module>code/business/order-service/order-application</module>
@@ -231,12 +231,12 @@
         <module>code/business/order-service/order-interface</module>
         <module>code/business/order-service/order-boot</module>
 
-        <!-- 秒杀服务模块 -->
-        <module>code/business/seckill-service/seckill-application</module>
-        <module>code/business/seckill-service/seckill-domain</module>
-        <module>code/business/seckill-service/seckill-infrastructure</module>
-        <module>code/business/seckill-service/seckill-interface</module>
-        <module>code/business/seckill-service/seckill-boot</module>
+        <!-- 营销服务模块 -->
+        <module>code/business/sale-service/sale-application</module>
+        <module>code/business/sale-service/sale-domain</module>
+        <module>code/business/sale-service/sale-infrastructure</module>
+        <module>code/business/sale-service/sale-interface</module>
+        <module>code/business/sale-service/sale-boot</module>
 
 <!--        &lt;!&ndash; 平台服务模块 &ndash;&gt;-->
 <!--        <module>code/platform/gateway-service</module>-->

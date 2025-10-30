@@ -33,7 +33,7 @@ $ErrorActionPreference = "Stop"
 $Root       = Split-Path -Parent $PSScriptRoot | Split-Path -Parent | Split-Path -Parent
 
 # 模板目录(可手动修改为其它路径)
-$Template   = Join-Path $Root "build/template/service/generatetemplate-service"
+$Template   = Join-Path $Root "build/template/generatetemplate-service"
 
 if (!(Test-Path $Template)) {
     Write-Error "模板目录 $Template 不存在！"

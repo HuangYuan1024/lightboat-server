@@ -1,0 +1,13 @@
+package com.huangyuan.productboot;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
+
+@SpringBootTest
+class ProductBootApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+}

@@ -203,40 +203,40 @@
         <module>code/foundation/lightboat-spring-boot-starter-idempotent</module>
         <module>code/foundation/lightboat-sdk-openfeign</module>
 
-<!--        &lt;!&ndash; 用户服务模块 &ndash;&gt;-->
-<!--        <module>code/business/user-service/user-application</module>-->
-<!--        <module>code/business/user-service/user-domain</module>-->
-<!--        <module>code/business/user-service/user-infrastructure</module>-->
-<!--        <module>code/business/user-service/user-interface</module>-->
-<!--        <module>code/business/user-service/user-boot</module>-->
+        <!-- 用户服务模块 -->
+        <module>code/business/user-service/user-application</module>
+        <module>code/business/user-service/user-domain</module>
+        <module>code/business/user-service/user-infrastructure</module>
+        <module>code/business/user-service/user-interface</module>
+        <module>code/business/user-service/user-boot</module>
 
-<!--        &lt;!&ndash; 影片服务模块 &ndash;&gt;-->
-<!--        <module>code/business/movie-service/movie-application</module>-->
-<!--        <module>code/business/movie-service/movie-domain</module>-->
-<!--        <module>code/business/movie-service/movie-infrastructure</module>-->
-<!--        <module>code/business/movie-service/movie-interface</module>-->
-<!--        <module>code/business/movie-service/movie-boot</module>-->
+        <!-- 商品服务模块 -->
+        <module>code/business/product-service/product-application</module>
+        <module>code/business/product-service/product-domain</module>
+        <module>code/business/product-service/product-infrastructure</module>
+        <module>code/business/product-service/product-interface</module>
+        <module>code/business/product-service/product-boot</module>
 
-<!--        &lt;!&ndash; 订单服务模块 &ndash;&gt;-->
-<!--        <module>code/business/order-service/order-application</module>-->
-<!--        <module>code/business/order-service/order-domain</module>-->
-<!--        <module>code/business/order-service/order-infrastructure</module>-->
-<!--        <module>code/business/order-service/order-interface</module>-->
-<!--        <module>code/business/order-service/order-boot</module>-->
+        <!-- 类别服务模块 -->
+        <module>code/business/category-service/category-application</module>
+        <module>code/business/category-service/category-domain</module>
+        <module>code/business/category-service/category-infrastructure</module>
+        <module>code/business/category-service/category-interface</module>
+        <module>code/business/category-service/category-boot</module>
 
-<!--        &lt;!&ndash; 促销服务模块 &ndash;&gt;-->
-<!--        <module>code/business/promotion-service/promotion-application</module>-->
-<!--        <module>code/business/promotion-service/promotion-domain</module>-->
-<!--        <module>code/business/promotion-service/promotion-infrastructure</module>-->
-<!--        <module>code/business/promotion-service/promotion-interface</module>-->
-<!--        <module>code/business/promotion-service/promotion-boot</module>-->
+        <!-- 订单服务模块 -->
+        <module>code/business/order-service/order-application</module>
+        <module>code/business/order-service/order-domain</module>
+        <module>code/business/order-service/order-infrastructure</module>
+        <module>code/business/order-service/order-interface</module>
+        <module>code/business/order-service/order-boot</module>
 
-<!--        &lt;!&ndash; 查询服务模块 &ndash;&gt;-->
-<!--        <module>code/business/search-service/search-application</module>-->
-<!--        <module>code/business/search-service/search-domain</module>-->
-<!--        <module>code/business/search-service/search-infrastructure</module>-->
-<!--        <module>code/business/search-service/search-interface</module>-->
-<!--        <module>code/business/search-service/search-boot</module>-->
+        <!-- 秒杀服务模块 -->
+        <module>code/business/seckill-service/seckill-application</module>
+        <module>code/business/seckill-service/seckill-domain</module>
+        <module>code/business/seckill-service/seckill-infrastructure</module>
+        <module>code/business/seckill-service/seckill-interface</module>
+        <module>code/business/seckill-service/seckill-boot</module>
 
 <!--        &lt;!&ndash; 平台服务模块 &ndash;&gt;-->
 <!--        <module>code/platform/gateway-service</module>-->

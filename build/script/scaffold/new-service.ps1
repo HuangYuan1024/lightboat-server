@@ -12,7 +12,7 @@
 param(
     # 只允许输入一个「单词」
     [Parameter(Mandatory = $true)]
-    [ValidatePattern('^[a-zA-Z0-9-]+$')]   # 简单校验，防止带空格或特殊符号
+    [ValidatePattern('^[a-zA-Z0-9-]+$', ErrorMessage = '输入内容只能包含字母、数字、连字符')]   # 简单校验，防止带空格或特殊符号
     [string]$Word,  # 必填，比如：user、order、product等
 
     # 旧参数保留，但不再强制，默认值由 $Word 自动拼出来
@@ -35,11 +35,16 @@ $Root       = Split-Path -Parent $PSScriptRoot | Split-Path -Parent | Split-Path
 # 模板目录(可手动修改为其它路径)
 $Template   = Join-Path $Root "build/template/service/generatetemplate-service"
 
+if (!(Test-Path $Template)) {
+    Write-Error "模板目录 $Template 不存在！"
+    exit 1
+}
+
 # 目标目录(可手动修改为其它路径)
 $Target     = Join-Path $Root "code\business\$Service"
 
 if (Test-Path $Target) {
-    Write-Error "目标服务 $Service 已存在！"
+    Write-Error "目标目录 $Target 已存在！"
     exit 1
 }
 

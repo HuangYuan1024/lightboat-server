@@ -207,6 +207,7 @@
         <module>code/business/user-service/user-application</module>
         <module>code/business/user-service/user-domain</module>
         <module>code/business/user-service/user-infrastructure</module>
+        <module>code/business/user-service/user-integration</module>
         <module>code/business/user-service/user-interface</module>
         <module>code/business/user-service/user-boot</module>
 

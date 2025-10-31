@@ -5,7 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ConditionalOnProperty(name = "love.mybatis.enabled", matchIfMissing = true)
+@ConditionalOnProperty(name = "lightboat.mybatis.enabled", matchIfMissing = true)
 public class MybatisAutoConfiguration {
 
     @Bean
